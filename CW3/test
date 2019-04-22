@@ -1,0 +1,61 @@
+heap(1,i,
+
+
+
+     heap(5,i,
+	heap(5,i,
+		heap(5,i,empty,empty),
+		heap(5,i,empty,empty)),
+	heap(5,i,
+		heap(5,i,empty,empty),
+		heap(5,i,empty,empty)
+            )
+          ),
+
+     heap(6,i,
+   	heap(5,i,
+	     heap(3,i,empty,empty),
+	     heap(2,i,empty,empty)
+	    ),
+	heap(4,i,
+	     heap(2,i,empty,empty),
+	     heap(3,i,empty,empty)
+	    )
+	 )
+     )
+
+unordered_heap:
+heap(1,i,heap(5,i,heap(5,i,heap(5,i,empty,empty),heap(5,i,empty,empty)),heap(5,i,heap(5,i,empty,empty),heap(5,i,empty,empty))),heap(6,i,heap(5,i,heap(3,i,empty,empty),heap(2,i,empty,empty)),heap(4,i,heap(2,i,empty,empty),heap(3,i,empty,empty))))
+
+max_heap:
+heap(7,i,heap(5,i,heap(5,i,heap(5,i,empty,empty),heap(5,i,empty,empty)),heap(5,i,heap(5,i,empty,empty),heap(5,i,empty,empty))),heap(6,i,heap(5,i,heap(3,i,empty,empty),heap(2,i,empty,empty)),heap(4,i,heap(2,i,empty,empty),heap(3,i,empty,empty))))
+
+
+remove_max(heap(7,i,heap(5,i,heap(5,i,heap(1,i,empty,empty),heap(5,i,empty,empty)),heap(5,i,heap(5,i,empty,empty),heap(5,i,empty,empty))),heap(6,i,heap(5,i,heap(3,i,empty,empty),heap(2,i,empty,empty)),heap(4,i,heap(2,i,empty,empty),heap(3,i,empty,empty)))),K,I,H).
+
+
+
+test_delete(seventeen,heap(17,seventeen,heap(12,twelve,heap(11,eleven,heap(1,one,empty,empty),heap(2,two,empty,empty)),heap(10,ten,heap(3,three,empty,empty),heap(4,four,empty,empty))),heap(16,sixteen,heap(15,fifteen,heap(5,five,empty,empty),heap(6,six,empty,empty)),heap(14,i,heap(7,seven,empty,empty),heap(8,eight,empty,empty)))),H).
+
+test_delete(eleven,heap(17,seventeen,heap(12,twelve,heap(11,eleven,heap(1,one,empty,empty),heap(2,two,empty,empty)),heap(10,ten,heap(3,three,empty,empty),heap(4,four,empty,empty))),heap(16,sixteen,heap(15,fifteen,heap(5,five,empty,empty),heap(6,six,empty,empty)),heap(14,i,heap(7,seven,empty,empty),heap(8,eight,empty,empty)))),H).
+
+
+test_delete(fourteen,heap(17,seventeen,heap(12,twelve,heap(11,eleven,heap(1,one,empty,empty),heap(2,two,empty,empty)),heap(10,ten,heap(3,three,empty,empty),heap(4,four,empty,empty))),heap(16,sixteen,heap(15,fifteen,heap(5,five,empty,empty),heap(6,six,empty,empty)),heap(14,fourteen,heap(7,seven,empty,empty),empty))),H).
+
+test_delete(sixteen,heap(17,seventeen,heap(12,twelve,heap(11,eleven,heap(1,one,empty,empty),heap(2,two,empty,empty)),heap(10,ten,heap(3,three,empty,empty),heap(4,four,empty,empty))),heap(16,sixteen,heap(15,fifteen,heap(5,five,empty,empty),heap(6,six,empty,empty)),heap(14,i,heap(7,seven,empty,empty),heap(8,eight,empty,empty)))),H).
+
+
+test_delete(three,heap(17,seventeen,heap(12,twelve,heap(11,eleven,heap(1,one,empty,empty),heap(2,two,empty,empty)),heap(10,ten,heap(3,three,empty,empty),heap(4,four,empty,empty))),heap(16,sixteen,heap(15,fifteen,heap(5,five,empty,empty),heap(6,six,empty,empty)),heap(14,i,heap(7,seven,empty,empty),heap(8,eight,empty,empty)))),H).
+
+
+heap(11,seventeen,heap(12,twelve,heap(11,eleven,heap(1,one,empty,empty),heap(2,two,empty,empty)),heap(10,ten,heap(3,three,empty,empty),heap(4,four,empty,empty))),heap(16,sixteen,heap(15,fifteen,heap(5,five,empty,empty),heap(6,six,empty,empty)),heap(14,i,heap(7,seven,empty,empty),heap(8,eight,empty,empty))))
+
+
+
+[(1,one),(7,seven),(99,nintynine),(100,hundred),(9,nine),(9,nine),(17,seventeen),(27,twenty-seven),(2,two),(1,one),(8,nine),(14,fourteen),(17,seventeen),(80,eighty),(101,hundred1),(170,hunsev)]
+
+
+
+
+
+
